@@ -21,4 +21,9 @@ public class MaximumNumber<T extends Comparable<T>> {
 		    System.out.println("Maximum value is :" +max);
 	}
 
+	
+	public void sort( int [] sortElements) {
+		Arrays.sort(sortElements);
+		System.out.println(Arrays.toString(sortElements));
+	}
 }
